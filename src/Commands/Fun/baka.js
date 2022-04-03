@@ -14,7 +14,7 @@ module.exports = new Command({
     async run(message, args, client) {
       if (message.mentions.members.size === 0) {
         fetch(
-            `https://kawaii.red/api/gif/baka/token=468386640155508737.m2glPraTYnRPNMdEzW8K`)
+            `https://kawaii.red/api/gif/baka/token=`)
             .then(res => res.json()
                 .then(url => {
                     const embed = new Discord.MessageEmbed()
