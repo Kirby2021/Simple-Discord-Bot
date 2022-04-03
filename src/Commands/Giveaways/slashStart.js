@@ -2,7 +2,7 @@ const Command = require('../../Handlers/Command.js')
 const colour = require('../../config/assets/Json/colours.json')
 const ms = require("ms")
 const { MessageEmbed } = require("discord.js");
-
+// i think i used Lyxcode code from a while back, im not sure if im right here
 module.exports = new Command({
 
     name: "giveaway",
